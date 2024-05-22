@@ -22,9 +22,12 @@ h1,h2,h3,p {
 }
 
 #progress {
-    margin-top: 0.5em;
+    border-top: 0.1em solid #434;
+    margin-top: 1.5em;
+    
     letter-spacing: 0.1em;
     font-size: x-large;
+
 }
 
 .btn--default {
@@ -32,4 +35,20 @@ h1,h2,h3,p {
     border-radius: 0.5em;
     border: 0;
     color: navy;
+}
+
+.btn--default:hover {
+    opacity: 0.75;
+}
+
+.btn--default:active {
+    opacity: inherit;
+}
+
+footer {
+
+}
+
+footer p {
+
 }
